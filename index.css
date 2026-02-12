@@ -80,6 +80,8 @@ nav a:hover {
     border-left: 10px solid var(--rojo);
 }
 
+/*agregar lo ultimo*/
+
 .tag {
     background: var(--rojo);
     color: white;

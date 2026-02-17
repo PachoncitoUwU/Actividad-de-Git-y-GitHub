@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,31 +13,42 @@
     <!--segundo cambiooooo-pachon-->
     
     <title>Ejercicio de Git</title>
+    <title>Notimuñe | Noticias de Colombia</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
+<body>
+    <header>
+        <div id="reloj"></div>
+        <h1 class="logo">NOTI<span>MUÑE</span></h1>
+        <p class="slogan">La verdad de Colombia, sin vueltas.</p>
+    </header>
+</body>
 
-    <p>
-        ola
-        ola
-        ola
-        ola
-        ola
-        olaaaaaaaaa
-        ola
-    </p>
+<nav>
+        <ul>
+            <li><a href="#" onclick="cambiarSeccion('Inicio')">Inicio</a></li>
+            <li><a href="#" onclick="cambiarSeccion('Nacional')">Nacional</a></li>
+            <li><a href="#" onclick="cambiarSeccion('Deportes')">Deportes</a></li>
+            <li><button id="btn-alerta">⚠️ ÚLTIMA HORA</button></li>
+        </ul>
+    </nav>
 
-    <article>
-        <p>
-            <h1>oña</h1>
-        </p>
-    </article>
-
-    <h2>
-        agregar un h2
-    </h2>
+    <main class="container">
+        <section class="noticia-principal">
+            <span class="tag">PRINCIPAL</span>
+            <h2 id="titulo-noticia">Cargando noticias de Colombia...</h2>
+            <p id="resumen-noticia">Notimuñe está actualizando la información para ti.</p>
+            <button class="btn-leer" onclick="leerMas()">Leer más</button>
+        </section>
+    </main>
 
 <body>
     <header></header>
     <h1>Ejercicio ed Git y GitHub</h1>
 </body>
 </html>
+</html>
+    
+        
+    
